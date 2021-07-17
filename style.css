@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+
+
+.balloon-animation {
+    position: relative;
+    background-image: linear-gradient(to top, rgb(62, 185, 216)10%, white);
+    height:100vh;
+    overflow: hidden;
+}
+
+.flaying-clouds {
+    position: absolute;
+    width: 35%;
+}
+
+.flaying-balloon {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left:40%;
+}
+.flaying-clouds:nth-child(1) {
+    top: 10%;
+    left:10%;
+}
+.flaying-clouds:nth-child(2) {
+    top: 10%;
+    left:55%;
+    z-index:1;
+}
+.flaying-clouds:nth-child(3) {
+    top: 20%;
+    left:70%;
+}
+.flaying-clouds:nth-child(4) {
+    top: 10%;
+    left:80%;
+}
+.flaying-clouds:nth-child(5) {
+    top: 20%;
+    left:80%;
+}
+.flaying-clouds:nth-child(5) {
+    top: 20%;
+    left:10%;
+}
